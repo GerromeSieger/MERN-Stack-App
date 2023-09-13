@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DHUB = credentials('dockerhub')
+        DHUB = credentials('NEW CHANGE')
     }
     stages {      
         stage('Docker builds') {
